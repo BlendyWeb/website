@@ -1,0 +1,864 @@
+/* Extra large devices (large laptops and desktops, 1700px and up) */
+@media only screen and (max-width: 1700px) {
+  .father .left1 img {
+    left: 7%;
+    top: 5%;
+  }
+  .father .left2 img {
+    left: 16%;
+    top: 10%;
+  }
+
+  .father .left3 img {
+    left: 25%;
+    top: 15%;
+  }
+
+  .father .left4 img {
+    left: 34%;
+    top: 20%;
+  }
+
+  .father .right1 img {
+    right: 2%;
+    top: 5%;
+  }
+  .father .right2 img {
+    right: 11%;
+    top: 10%;
+  }
+  .father .right3 img {
+    right: 20%;
+    top: 15%;
+  }
+  .father .right4 img {
+    right: 29%;
+    top: 20%;
+  }
+
+  .father .center_blendy_img img {
+    right: 36%;
+    top: 25%;
+  }
+
+  .why_text {
+    width: 80%;
+    left: 10%;
+  }
+
+  .why_text h2 {
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 30px !important;
+  }
+
+  .columns_white_curved_line {
+    width: 100%;
+    left: 0%;
+    z-index: 1;
+    top: 42%;
+  }
+
+  .left_second_rec {
+    margin-top: 10%;
+  }
+
+  .left_third_rec {
+    margin-top: 14%;
+  }
+
+  .left_fourth_rec {
+    margin-top: 0%;
+  }
+  .elemento_grafico_L_line_curved {
+    top: -250%;
+  }
+
+  /*GREEN SECTION*/
+
+  .green_bg .foto_person_container {
+    bottom: 100px;
+    width: 300px;
+  }
+
+  /*blue_dark_bg*/
+  .blue_dark_bg .foto_person_container {
+    bottom: 200px;
+  }
+
+  /*light_blue_section*/
+  .light_blue_bg .foto_person_container {
+    bottom: 100px;
+  }
+
+  /*PINK BG*/
+
+  .pink_bg .foto_person_container {
+    bottom: 100px;
+  }
+
+  .pink_bg .foto_person_container img {
+    width: 300%;
+  }
+
+  .title_main_answer_section h1 {
+    font-size: 70px !important;
+  }
+
+  .left_bottle_section {
+    left: -50px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (max-width: 1500px) {
+  .father div img {
+    width: 400px;
+  }
+
+  .father .left1 img {
+    left: 7%;
+    top: 5%;
+  }
+  .father .left2 img {
+    left: 16%;
+    top: 10%;
+  }
+
+  .father .left3 img {
+    left: 25%;
+    top: 15%;
+  }
+
+  .father .left4 img {
+    left: 34%;
+    top: 20%;
+  }
+
+  .father .right1 img {
+    right: 2%;
+    top: 5%;
+  }
+  .father .right2 img {
+    right: 11%;
+    top: 10%;
+  }
+  .father .right3 img {
+    right: 20%;
+    top: 15%;
+  }
+  .father .right4 img {
+    right: 29%;
+    top: 20%;
+  }
+
+  .father .center_blendy_img img {
+    right: 33%;
+    top: 25%;
+  }
+
+  .green_bg,
+  .blue_dark_bg,
+  .light_blue_bg,
+  .pink_bg,
+  .yellow_bg {
+    height: 500px !important;
+    position: relative;
+  }
+
+  .context_area {
+    margin-top: 50px;
+  }
+
+  .girls_yellow_bg {
+    position: relative;
+    width: 100%;
+    margin-top: -500px;
+    margin-left: 0px;
+  }
+
+  .vantagens h1 {
+    font-size: 45px !important;
+  }
+  /*
+  .yellow_bg .columns,
+  .light_blue_bg .columns {
+    display: inline;
+  }
+
+  .yellow_bg .column,
+  .light_blue_bg .column {
+    width: 100%;
+  }
+*/
+
+  .left_second_rec {
+    margin-top: 0%;
+  }
+
+  .left_third_rec {
+    margin-top: 0%;
+  }
+
+  .left_fourth_rec {
+    margin-top: 0%;
+  }
+
+  .right_second_rec {
+    margin-top: 0;
+  }
+
+  .right_third_rec {
+    margin-top: 0;
+  }
+
+  .right_bottle_section {
+    right: 150px !important;
+  }
+
+  .rec p {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .title_main_answer_section h1 {
+    font-size: 55px !important;
+  }
+
+  .columns_about_us {
+    position: absolute;
+    width: 100% !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .blendy_bg {
+    top: -50px;
+  }
+
+  .father div img {
+    width: 500px;
+  }
+
+  .father .left1 img {
+    left: 7%;
+    top: 10%;
+  }
+  .father .left2 img {
+    left: 23%;
+    top: 15%;
+  }
+
+  .father .left3 img {
+    left: 65%;
+    top: 10%;
+  }
+
+  .father .left4 img {
+    left: 48%;
+    top: 15%;
+  }
+
+  .right_blendy_img {
+    display: none;
+  }
+
+  .father .center_blendy_img img {
+    right: 24%;
+  }
+  .columns_white_curved_line {
+    position: static;
+  }
+
+  .yellow_bg .vantagens h1 {
+    font-size: 40px;
+  }
+
+  .blue_dark_bg .vantagens h1 {
+    font-size: 40px;
+  }
+
+  .points_area_img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .points_area_img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .main_columns {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .my_custom_container_products {
+    width: 80%;
+    margin: auto;
+  }
+
+  .girls_yellow_bg {
+    position: relative;
+    width: 100%;
+    margin-top: -300px;
+  }
+
+  .why_text {
+    position: absolute;
+    top: 1%;
+  }
+
+  .curved_line_desktop {
+    display: none;
+  }
+
+  .rec p {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .bottle_img img {
+    width: 300%;
+  }
+
+  .vantagens {
+    width: 70%;
+    height: auto;
+    text-align: center;
+  }
+
+  .title_section_area {
+    display: block;
+    width: 100%;
+  }
+
+  .title_section_area h1 {
+    font-size: 80px !important;
+  }
+
+  .vantagens_h1 {
+    font-size: 40px !important;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .table_aria {
+    display: none;
+  }
+
+  .blue_dark_bg .foto_person_container {
+    bottom: 150px;
+  }
+
+  .blue_dark_bg .foto_person_container img {
+    width: 500px;
+  }
+
+  .light_blue_bg .foto_person_container {
+    bottom: 150px;
+  }
+
+  .light_blue_bg .foto_person_container img {
+    width: 500px;
+  }
+
+  .pink_bg .foto_person_container {
+    bottom: 50px;
+  }
+
+  .pink_bg .foto_person_container img {
+    width: 500px;
+  }
+
+  .yellow_bg .foto_person_container {
+    bottom: 50px;
+  }
+
+  .yellow_bg .foto_person_container img {
+    width: 500% !important;
+  }
+
+  .columns_about_us {
+    display: block;
+  }
+
+  .column_about_us {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .context_area_ab_us {
+    width: 90% !important;
+    top: 50px;
+  }
+
+  .elemento_grafico_B_black_bg {
+    width: 300px !important;
+    height: 300px;
+    position: absolute;
+    z-index: 0;
+    top: 350px;
+    right: -500px;
+    transform: rotate(90grad);
+  }
+
+  .title_main_answer_section h1 {
+    font-size: 50px !important;
+  }
+
+  .faq-button {
+    font-size: 40px;
+    max-width: 300px;
+    justify-content: space-between;
+  }
+
+  .elemento_grafico_B_green_bg {
+    top: 100px !important;
+    left: 50px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .father .center_blendy_img img {
+    right: 20%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .father .center_blendy_img img {
+    right: 18%;
+  }
+  .green_bg .foto_person_container {
+    right: 50px;
+  }
+
+  .pink_bg .foto_person_container {
+    bottom: 0px;
+    left: -100px;
+  }
+
+  .pink_bg .foto_person_container img {
+    width: 400px;
+  }
+
+  .green_bg .context_area,
+  .light_blue_bg .context_area {
+    margin-top: 0px;
+  }
+
+  .green_bg .vantagens h1 .light_blue_bg .vantagens h1 {
+    font-size: 20px !important;
+  }
+
+  .light_blue_bg .vantagens h1 {
+    font-size: 40px !important;
+  }
+
+  .yellow_bg .foto_person_container {
+    bottom: 200px;
+    right: -200px;
+  }
+
+  .yellow_bg .foto_person_container img {
+    width: 800px !important;
+  }
+
+  .FAQ_section .button-container {
+    display: grid;
+    margin-top: 25px;
+  }
+
+  .FAQ_section .faq-button {
+    margin: 0px;
+    padding: 0px 0px;
+    text-align: center;
+
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    right: -100%;
+    top: var(--nav-height);
+    height: calc(100vh - var(--nav-height));
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-bg);
+    transition: var(--transition);
+    overflow-y: auto;
+  }
+
+  .nav-links li {
+    opacity: 0;
+    margin: 20px 0;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .nav-active {
+    right: 0;
+  }
+
+  .toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .father {
+    display: none;
+  }
+
+  .elemento_grafico_Y_slider_bottels,
+  .elemento_grafico_B_slider_bottels {
+    position: absolute;
+    width: 30%;
+  }
+
+  .elemento_grafico_Y_slider_bottels {
+    bottom: 100px;
+    transform: rotate(90grad);
+  }
+
+  .elemento_grafico_B_slider_bottels {
+    bottom: 200px;
+    transform: rotate(90grad);
+    right: 0;
+  }
+
+  .product-slider {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 40px 0;
+    display: block; /* Default visibility for mobile */
+  }
+
+  .slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .slide {
+    flex: 0 0 60%;
+    max-width: 50%;
+    transition: all 0.5s ease;
+    opacity: 0.7;
+    transform: scale(0.8);
+  }
+
+  .slide.active {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .desktop-message {
+    display: none; /* Hidden by default */
+  }
+
+  .elemento_grafico_Y {
+    display: none;
+  }
+
+  .elemento_grafico_E {
+    display: none;
+  }
+
+  .elemento_grafico_L {
+    display: none;
+  }
+
+  .curved_line_context_content {
+    margin-top: 100px;
+  }
+
+  .left_first_rec {
+    margin-top: 75px;
+  }
+
+  .columns_white_curved_line {
+    margin-top: 150px;
+    display: grid;
+  }
+
+  .main_columns {
+    width: 95%;
+  }
+
+  .left_column .left__recs__line .white_line_icon {
+    order: -1;
+  }
+
+  .elemento_grafico_L_yellow_bg {
+    top: -50px;
+    left: -50px;
+    opacity: 100%;
+    width: 300px;
+    z-index: -1;
+  }
+
+  .elemento_grafico_L_line_curved {
+    display: none;
+  }
+
+  .title_main_answer_section {
+    display: none;
+  }
+
+  .FAQ_title h1 {
+    font-size: 60px;
+  }
+
+  .context_area_footer {
+    display: grid;
+  }
+
+  .footer_logo {
+    width: 100%;
+  }
+
+  .footer_yellow_bg {
+    height: auto;
+  }
+
+  .green_bg .foto_person_container img {
+    width: 500px !important;
+    right: 0;
+  }
+
+  .pink_bg .my_custom_container_products,
+  .blue_dark_bg .my_custom_container_products {
+    width: 110% !important;
+  }
+
+  .pink_bg .context_area,
+  .blue_dark_bg .context_area {
+    width: 1100%;
+  }
+
+  .pink_bg .vantagens,
+  .blue_dark_bg .vantagens {
+    width: 100% !important;
+    float: right !important;
+  }
+
+  .light_blue_bg .foto_person_container {
+    right: 100px;
+  }
+
+  .light_blue_bg .context_area {
+    width: 100%;
+  }
+
+  .light_blue_bg .vantagens {
+    width: 100%;
+  }
+
+  .elemento_grafico_E_blue_dark_bg {
+    opacity: 50%;
+  }
+
+  .elemento_grafico_E_light_blue_bg {
+    display: none;
+  }
+
+  .footer_contact_title {
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .columns_about_us {
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .context_area_ab_us {
+    width: 100% !important;
+  }
+
+  .foto_person_before_party {
+    bottom: -50px;
+    width: 500% !important;
+    right: 200px;
+  }
+
+  .bottle_img {
+    display: none;
+  }
+  .context_aria_about_us {
+    margin: auto;
+  }
+  .footer_column_contacts {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .yellow_top_bg_section {
+    margin-bottom: 250px;
+  }
+
+  .yellow_bg .vantagens {
+    margin-top: 0px;
+
+  }
+
+  .yellow_bg .vantagens h1{
+    font-size: 35px !important;
+    
+  }
+  .black_arrow{
+    position: relative;
+    left: 35%;
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .elemento_grafico_E_blue_dark_bg {
+    display: none;
+  }
+
+  .why_text {
+    width: 100%;
+    left: 0;
+  }
+
+  .left_column {
+    margin-top: 150px;
+  }
+
+  .vantagens {
+    width: 85% !important;
+  }
+
+  .blue_dark_bg .vantagens{
+    right: 50px;
+  }
+
+  .yellow_bg .vantagens{ 
+    left: 30px;
+  }
+
+  .vantagens h1 {
+    font-size: 30px !important;
+  }
+
+  .green_bg .context_area,
+  .blue_dark_bg .context_area,
+  .light_blue_bg .context_area,
+  .pink_bg .context_area,
+  .yellow_bg .context_area {
+    width: 100% !important;
+    margin-top: 100px;
+  }
+
+  .green_bg .foto_person_container {
+    left: -250px;
+  }
+
+  .light_blue_bg .foto_person_container {
+    left: -250px;
+  }
+
+  .light_blue_bg .vantagens {
+    margin-top: -100px;
+    color: white;
+    font-size: 30px !important;
+  }
+
+  .light_blue_bg .vantagens h1 {
+    font-size: 30px !important;
+  }
+  .elemento_grafico_B_green_bg {
+    opacity: 0.5;
+  }
+
+  .pink_bg .foto_person_container {
+    left: -50px;
+    opacity: 0.9;
+  }
+
+  .pink_bg .context_area {
+    left: -50px;
+    top: 150px;
+  }
+
+  .pink_bg .context_area h1 {
+    font-weight: bold;
+  }
+
+  .elemento_grafico_B_pink_bg{
+    left: 150px;
+    top: -250px;
+    opacity: 1;
+  }
+
+  .elemento_grafico_D_pink_bg {
+    opacity: 0.5;
+  }
+
+  .yellow_bg .foto_person_container {
+    border: green 2px solid;
+    opacity: 1;
+    right: -250px;
+  }
+
+  .yellow_bg .context_area {
+    left: -50px;
+    color: white;
+  }
+
+  .elemento_grafico_L_yellow_bg {
+    display: none;
+  }
+
+  .black_bg h1 {
+    font-size: 55px;
+  }
+
+  .elemento_grafico_D_black_bg {
+    opacity: 0.7;
+  }
+
+  .context_area_ab_us {
+    font-size: 20px;
+    line-height: 1.7;
+    color: white;
+  }
+
+  .footer_yellow_bg .FAQ_title{
+    width: 90%; 
+  }
+}
