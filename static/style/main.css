@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/*
+font-family: "scale-variable",sans-serif;
+  font-variation-settings: 'wdth' 100, 'wght' 400;
+
+*/
+
 :root {
   --color-bg: #ffffff;
   --color-text: #333333;
@@ -31,6 +37,7 @@ nav {
   width: 100%;
   top: 0;
   z-index: 1000;
+  align-content: center;
 }
 
 .nav-container {
@@ -63,6 +70,8 @@ nav {
 .nav-links {
   display: flex;
   list-style: none;
+  align-content: center;
+  margin-bottom: 0;
 }
 
 .nav-links li {
@@ -70,6 +79,8 @@ nav {
 }
 
 .nav-links a {
+  font-family: "scale-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "wght" 400;
   color: var(--color-text);
   text-decoration: none;
   font-weight: 500;
@@ -134,7 +145,6 @@ nav {
 }
 
 .logo img {
-  height: 80px;
 }
 
 .nav-menu {
@@ -374,26 +384,29 @@ nav {
 /*FINISH WAVES*/
 
 /* Main Content Styles */
-.elemento_grafico_Y_slider_bottles{
-display: none;}
-
-.elemento_grafico_B_slider_bottles{
-display: none;
+.elemento_grafico_Y_slider_bottles {
+  display: none;
 }
 
+.elemento_grafico_B_slider_bottles {
+  display: none;
+}
 
-.product-slider{
+.product-slider {
   display: none;
 }
 
 .father {
   position: relative;
-  width: 100%;
-  height: 900px;
+  width: 80%;
+  top: 50px;
+  margin: auto;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 60px; /* Add space for the navbar */
+  z-index: 1;
 }
 
 .father div {
@@ -401,23 +414,23 @@ display: none;
 }
 
 .father div img {
-  width: 400px;
+  width: 13%;
   position: absolute;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
 .father .left1 img {
-  left: 7%;
+  left: 0%;
   top: 15%;
 }
 .father .left2 img {
-  left: 16%;
+  left: 11%;
   top: 25%;
 }
 
 .father .left3 img {
-  left: 25%;
+  left: 22%;
   top: 35%;
 }
 
@@ -427,7 +440,7 @@ display: none;
 }
 
 .father .right1 img {
-  right: 2%;
+  right: 0%;
   top: 15%;
 }
 .father .right2 img {
@@ -435,16 +448,16 @@ display: none;
   top: 25%;
 }
 .father .right3 img {
-  right: 20%;
+  right: 22%;
   top: 35%;
 }
 .father .right4 img {
-  right: 29%;
+  right: 33%;
   top: 45%;
 }
 
 .father .center_blendy_img img {
-  right: 37%;
+  left: 44%;
   top: 55%;
 }
 
@@ -519,7 +532,6 @@ html {
   position: relative;
   background-color: #ffd007;
   padding: 0;
-  margin-top: 100px;
 }
 
 .blendy_bg {
@@ -549,7 +561,6 @@ html {
   position: relative;
   transform: rotate(-45grad);
   right: -5%;
-  top: -5%;
   width: 25%;
   z-index: 0;
 }
@@ -564,8 +575,9 @@ html {
 }
 
 .elemento_grafico_L {
+  display: none;
   position: relative;
-  top: -5%;
+  top:100% !important;
   right: -5%;
   width: 20%;
   height: 20%;
@@ -622,7 +634,7 @@ html {
   position: relative;
   left: -5%;
   width: 110%;
-  margin-top: -15%;
+  margin-top: -10%;
   z-index: 1;
 }
 
@@ -703,17 +715,20 @@ html {
   text-align: left;
   align-content: space-around;
 }
+
 .right_letters_curved_line {
   position: relative;
   width: 10%;
 }
+
 .elemento_grafico_L_line_curved {
   width: 500%;
   position: relative;
-  top: -200%;
-  right: -700%;
+  top: -150% !important;
+  right: -500%;
   z-index: -1;
 }
+
 .elemento_grafico_B_line_curved {
   width: 500px;
   right: -500px;
@@ -724,30 +739,27 @@ html {
 }
 
 .elemento_grafico_D_ybg,
-.elemento_grafico_E_ybg
-{
+.elemento_grafico_E_ybg {
   position: absolute;
   width: 300px;
   z-index: -1;
   display: none;
 }
-.elemento_grafico_B_ybg{
+.elemento_grafico_B_ybg {
   position: absolute;
   width: 300px;
   z-index: -1;
   left: 0;
-
 }
 
-.elemento_grafico_D_ybg{
+.elemento_grafico_D_ybg {
   left: 0;
 }
 
-
-.elemento_grafico_E_ybg{
+.elemento_grafico_E_ybg {
   left: 250px;
 }
-.elemento_grafico_B_ybg{
+.elemento_grafico_B_ybg {
   position: absolute;
   width: 300px;
   z-index: -1;
@@ -939,7 +951,7 @@ html {
   color: white;
 }
 
-.elemento_grafico_B_after_party{
+.elemento_grafico_B_after_party {
   width: 300px;
   position: absolute;
   top: 50px;
@@ -1114,7 +1126,6 @@ html {
   width: 30%;
   position: relative;
   z-index: 2;
-
 }
 
 .context_aria_about_us {
@@ -1129,7 +1140,6 @@ html {
   justify-content: space-around;
   width: 100%;
 }
-
 
 .context_aria_about_us_letters {
   width: 30%;
